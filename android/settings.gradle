@@ -1,0 +1,3 @@
+rootProject.name = 'TopicsAndComments'
+
+include ':app'
