@@ -1,11 +1,12 @@
 import * as firebase from 'firebase'
+// Register firebase app to receive firebase web app config
 // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyAkZGAHXx-oE6ZsOAmeKh5JnOnxDIAvXFU",
-    authDomain: "topicsncomments.firebaseapp.com",
-    databaseURL: "https://topicsncomments.firebaseio.com",
-    storageBucket: "topicsncomments.appspot.com",
-    messagingSenderId: "980861685443"
+    apiKey: "...",
+    authDomain: "...",
+    databaseURL: "...",
+    storageBucket: "...",
+    messagingSenderId: "..."
   };
 
 export const firebaseApp = firebase.initializeApp(config);
