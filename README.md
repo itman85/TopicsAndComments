@@ -1,1 +1,1 @@
-# TopicsAndComments
+This is react native app using firebase authentication and firebase database. User can register account with email to firebase, login or reset password. After login, user can post topics, comments on topics. With firebase realtime database, user is able to see new topics, new comments right after there are new posts from others. To run app, reinstall node dependencies before command run-ios or run-android, register firebase app to receive firebase config info.
